@@ -1,0 +1,43 @@
+.contact-box{
+    width: 40%;
+    margin: 0 auto;
+    padding: 10px 20px;
+}
+
+.contact-box input,.contact-box textarea{
+    width: 100%;
+    margin: 8px 0;
+    padding: 5px 10px;
+    border-radius: 5px;
+    outline: 0;
+    border: 1px solid #e74c3c;
+    font-size: 1.2rem;
+    color: slateblue;
+}
+.contact-box textarea{
+    resize: none;
+}
+.contact-box input:focus,.contact-box textarea:focus{
+    border-color: seagreen;
+}
+
+.contact-box input[type="submit"]{
+    background:#e74c3c;
+    color: #fff;
+    font-weight: 500;
+}
+
+@media (max-width:991px) {
+    .contact-box{
+        width: 70%;
+        margin: 0 auto;
+        padding: 10px 20px;
+    }
+}
+@media (max-width:600px) {
+    .contact-box{
+        width: 90%;
+        margin: 0 auto;
+        padding: 10px 20px;
+    }
+}

@@ -1,0 +1,14 @@
+.social-icon a{
+    font-size: 2rem;
+    color: white;
+    margin: 0 15px;
+    transition: color 0.4s;
+}
+
+.social-icon a:hover{
+    color: #ff7200;
+}
+
+.footer-style{
+    background:#3498db;
+}

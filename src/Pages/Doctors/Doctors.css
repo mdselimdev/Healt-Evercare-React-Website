@@ -1,0 +1,20 @@
+.doctor-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap:25px;
+}
+
+
+@media (max-width:991px) {
+    .doctor-container{
+        grid-template-columns: repeat(2,1fr);
+        grid-gap:25px;
+    }
+}
+
+@media (max-width:600px) {
+    .doctor-container{
+        grid-template-columns: 1fr;
+        grid-gap:25px;
+    }
+}

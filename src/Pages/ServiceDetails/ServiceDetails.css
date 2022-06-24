@@ -1,0 +1,9 @@
+.service-details{
+    width: 100%;
+}
+
+.service-details img{
+    height: 500px;
+    border: 2px solid crimson;
+    border-radius: 5px;
+}
